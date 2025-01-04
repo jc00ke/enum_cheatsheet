@@ -1,24 +1,13 @@
 # enum_cheatsheet
 
-[![Package Version](https://img.shields.io/hexpm/v/enum_cheatsheet)](https://hex.pm/packages/enum_cheatsheet)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/enum_cheatsheet/)
-
-```sh
-gleam add enum_cheatsheet@1
-```
-```gleam
-import enum_cheatsheet
-
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
-
-Further documentation can be found at <https://hexdocs.pm/enum_cheatsheet>.
+Angelika's [Elixir Enum Cheatsheet](https://angelika.me/elixir-enum-cheatsheet/) but in [Gleam](https://gleam.run) with [Paint](https://adelhult.github.io/paint/).
 
 ## Development
 
 ```sh
-gleam run   # Run the project
-gleam test  # Run the tests
+mise install
+just install_rebar
+just install_server
+just watch
+just serve
 ```
