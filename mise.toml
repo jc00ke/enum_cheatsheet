@@ -1,0 +1,14 @@
+[tools]
+gleam = "1.6.3"
+watchexec = "latest"
+
+[env]
+_.path =[
+  "./bin"
+]
+
+[tasks.build]
+description = 'Build the Gleam demo'
+run = "just build"
+sources = ['index.html', 'src/**/*.gleam'] # skip running if these files haven't changed
+outputs = ['build/dev/javascript/enum_cheatseet/enum_cheatsheet.mjs']
