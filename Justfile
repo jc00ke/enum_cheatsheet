@@ -1,9 +1,6 @@
 watch:
     mise watch build
 
-install_watchexec:
-    mise use watchexec@latest
-
 build:
     gleam build
 
